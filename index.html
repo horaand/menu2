@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mythic Nav — Fantasy Neon Menu</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-bar">
+            <a class="brand" href="#" aria-label="Home">
+                <span class="brand-badge" aria-hidden="true"></span>
+                <strong>Mythic</strong>
+            </a>
+            <input id="nav-toggle" class="nav-toggle" type="checkbox" 
+            aria-label="Open menu" />
+            <label for="nav-toggle" class="hamburger" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="nav" aria-label="Primary">
+                <ul class="menu">
+                 <li><a class="active" href="#" aria-current="page">Realms</a></li>
+
+            <li class="has-sub">
+                <details>
+                <summary>Spells</summary>
+                <ul class="dropdown">
+                    <li><a href="#">Light Shield</a></li>
+                    <li><a href="#">Arcane Blast</a></li>
+                    <li><a href="#">Time Warp</a></li>
+                </ul>
+                </details>
+            </li>
+            <li><a href="#">Artifacts</a></li>
+
+                <li class="has-sub">
+                    <details>
+                    <summary>Guilds</summary>
+                    <ul class="dropdown">
+                        <li><a href="#">Mages</a></li>
+                        <li><a href="#">Rangers</a></li>
+                        <li><a href="#">Alchemists</a></li>
+                    </ul>
+                    </details>
+                </li>
+                </ul>
+                <div class="nav-cta">
+                    <a class="link" href="#">Sign in</a>
+                    <a class="btn btn-cta" href="#">Start Quest</a>
+                </div>
+            </nav>
+        </header>
+    </body>
+</html>
